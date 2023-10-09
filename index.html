@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="netflix.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img class="netflix-img" src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix Logo">
+        </div>
+        <div class="search">
+            <div class="searchbar">
+                <input type="text" onkeyup="searchmovie()" id="searchicon" class="searchplace" placeholder="Search Movie!">
+                <img onclick="searchmovie()"  class="search-logo" src="https://cdn4.iconfinder.com/data/icons/online-marketing-double-color-black-and-red-vol-2/52/find__glass__search__magnifier__zoom__locate__gps-256.png" alt="Search Logo">
+            </div>
+        </div>
+    </header>
+    <section class="body" id="movielist">
+        
+        
+    </section>
+    <footer id="copyright">
+        <p>&#169 2023 Copyright , Designed with <i class="fa-solid fa-heart"></i><br>By Debiprasad Mohanty.</p>
+    </footer>
+    <script src="./netflix.js"></script>
+</body>
+</html>
